@@ -1,0 +1,80 @@
+/* Inserta tu CSS aqui */
+*{
+	font-family: 'Oswald', sans-serif;
+}
+/*estilos de encabezado*/
+.fondo-img{
+	background: #FFF url("../images/background.jpg");
+	background-repeat: no-repeat;
+	height: 400px;
+	background-size: 100% 100%;
+}
+ul.menu li{
+	list-style: none;
+	margin-left: 15%;
+	padding: 2%;
+	display: inline-block;
+}
+li a{
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.3em;
+	color: #B20F6B;
+}
+li a:hover{
+	background-color: #F392D4;
+	color: #fff;
+}
+.posicion{
+	position: relative;
+	left: 42%;
+	padding: 4%;
+}
+.nom-posicion{
+	color: #fff;!important
+}
+/*estilos seccion sobre mi*/
+.fondo-tile1{
+	background: #FFF url("../images/tile1.png");
+	height: 300px;
+	background-size: 100% 100%;
+}
+#perfil{
+	border: 1px solid #D5D4D4;
+	background-color: #FFF;
+	padding: 2%;
+	width: 60%;
+	height: 60%;
+}
+h1{
+	font-size: 2em;
+}
+/*estilos de cosas favoritas*/
+h1, h2, h3{
+	text-align:center;
+	margin: 2%;
+	color: #EE0398;
+}
+
+.img-cosas{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border: 2px dashed #F837D1;
+	margin: 2%;
+}
+.fondo-tile2{
+	background: #FFF url("../images/tile2.png");
+	background-repeat: repeat;
+} 
+.alinear{
+	float: right;
+}
+
+/*margen*/
+.margen{
+	margin-top: 5%;
+}
+p.texto{
+	padding: 5%;
+}
